@@ -28,7 +28,9 @@ class String
 
   def count_sentences
     x = self.split(/[!?.]/)
-    binding.pry
+    index = 0
+    x.each do |stentence|
+      if sentence = ""
     x.length
   end
   
