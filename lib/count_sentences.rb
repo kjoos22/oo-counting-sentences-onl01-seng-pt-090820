@@ -32,6 +32,7 @@ class String
     x.each do |stentence|
       if sentence = ""
         x[index].delete
+      end
     x.length
   end
   
