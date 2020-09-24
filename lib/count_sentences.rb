@@ -31,7 +31,7 @@ class String
     index = 0
     x.each do |sentence|
       if sentence == ""
-        x[index].delete
+        x.delete_at(index)
       end
     end
     x.length
