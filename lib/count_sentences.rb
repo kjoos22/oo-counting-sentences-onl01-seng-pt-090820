@@ -30,7 +30,7 @@ class String
     x = self.split(/[!?.]/)
     index = 0
     x.each do |stentence|
-      if sentence = ""
+      if sentence == ""
         x[index].delete
       end
     x.length
