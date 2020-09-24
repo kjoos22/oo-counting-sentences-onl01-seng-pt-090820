@@ -30,4 +30,7 @@ class String
     x = self.split(/[!?.]/)
     x.length
   end
+  
+  
+  
 end
