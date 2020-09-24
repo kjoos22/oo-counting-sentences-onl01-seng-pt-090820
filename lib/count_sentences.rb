@@ -29,7 +29,7 @@ class String
   def count_sentences
     x = self.split(/[!?.]/)
     index = 0
-    x.each do |stentence|
+    x.each do |sentence|
       if sentence == ""
         x[index].delete
       end
