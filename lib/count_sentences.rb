@@ -33,6 +33,7 @@ class String
       if sentence == ""
         x[index].delete
       end
+    end
     x.length
   end
   
